@@ -49,3 +49,5 @@ gitに関する情報を設定したり閲覧したりするコマンド。名�
 > Create a new commit containing the current contents of the index and the given log message describing the changes. The new commit is a direct child of HEAD, usually the tip of the current branch, and the branch is updated to point to it (unless no branch is associated with the working tree, in which case HEAD is "detached" as described in git-checkout(1)).
 
 要するに，追跡対象の現在の内容と新しい変更点のログメッセージを含むコミットを作るコマンド。ここで作られる新しいコミットはHEADコミットの子の部分につくられ，基本的には現在のブランチの最先端に作られる。
+
+だいたいは`git commit -am "commit message"`という感じになる。
